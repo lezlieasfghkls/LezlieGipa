@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors and Stories</title>
+    <style>
+
+        body {
+            background-image: url(images/bg2.jfif);
+         
+    
+        }
+        .author {
+            display: inline-block;
+            margin: 15px;
+            text-align: center;
+            
+        }
+        h1  {
+            color: #ff5000;
+            font-size: xx-large;
+            margin: 1%;
+        }
+        
+        h2 {
+            color: #ff5000;
+            font-size: large;
+
+        }
+        h3 {
+            color: black;
+            font-style: normal;
+        }
+
+        h6 {
+            font-style: normal;
+            font-size: x-large;
+            color: #ff5000;
+        }
+
+        .author img {
+            width: 200px;
+            height: 200px;
+            border-radius: 20%;
+            cursor: pointer;
+            margin-right: 5%;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+           
+        }
+
+        .modal-content {
+            background-image: url(images/bg.jfif);
+            margin: .5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            float:center;
+            font-size: large;
+            font-style: italic;
+            overflow: scroll;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+ <h1>Authors</h1>
+    <h3>Click the pictures to see the summary</h3>
+<div class="author" onclick="openModal('author1')">
+    <br><img src="images/author1.jpg" alt="Jonaxx"></br>
+  
+    </div>
+
+<div id="author1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('author1')">&times;</span>
+        <h2>Jonaxx App link</h2>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdev%3Fid%3D9048811463873780595&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA">https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdev%3Fid%3D9048811463873780595&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA</a>
+        <h6>Jonaxx Stories</h6>
+        <h2>Whipped</h2>
+        <p> Entice Ralene dela Merced Esquivel owns Alegria. Siya ang spoiled brat ng mga dela Merced. All her whims, laging nasusunod. Lahat-lahat. Kaya hindi siya sanay na may bagay siyang hindi nakukuha. Hindi niya nakukuha ang atensyon ni Knoxx Montefalco. So she did everything to get his attention. She was determined to make him fall so hard for her. No one can stop her, even Knoxx's friend.  
+            Kahit gaano niya pa ka alam na in love si Lumiere kay Knoxx, hindi niya tinigilan si Knoxx. But then a tragedy shattered her heart into millions of pieces. A tragedy she never thought to be possible.
+            Talaga palang hindi mo makukuha ang lahat ng bagay sa mundong ito kahit gaano mo pa kagusto. May mga bagay talagang sadyang hindi para sayo. There are loves you just can't hold alone. Loves who will drift no matter how tight you hold them. People who just can't be yours no matter how whipped you are..</p>
+            <a href="https://jonaxxfiles.fandom.com/wiki/Whipped">https://jonaxxfiles.fandom.com/wiki/Whipped</a>
+        <h2>Ripped</h2>
+            <p>No one is good enough to deserve the beautiful Freya Cuevas of Alegria. She's witty, smart, and confident. Lahat halos sa buong campus ay hinahangaan siya. From the consecutive wins to topping her batch</p>
+            <a href="https://jonaxxfiles.fandom.com/wiki/Ripped">https://jonaxxfiles.fandom.com/wiki/Ripped</a>
+        <h2>Tripped</h2>
+            <p>She thinks she'll succeed, only to find out that she didn't tame him, he tamed her. She toppled, stumbled... complete with bruises... and the pieces of her heart were scattered on the ground... Because it was all too late. It's all too late. She tripped. Alone. Fell. All alone. Gone. Alone. She made sure she won't make the same mistakes again. Alegria, she'll be back with the bruises all healed and her heart whole again. She vowed to never fall again. That's for sure now. But then again... she tripped</p>
+       <a href="https://jonaxxfiles.fandom.com/wiki/Tripped">https://jonaxxfiles.fandom.com/wiki/Tripped</a>
+       <h2>Until He Was Gone Book1</h2>
+            <p>Si Klare Montefalco ay ipinanganak sa isang kilala at marangyang pamilya. Everything is perfect. Mahal siya ng pamilya niya at mahal din niya ang mga ito. Her life is simple. No drama, no sweat, no nonsense. Nang tumibok ang puso niya, doon niya napagtanto na ang bawat pader na inakala niya'y matibay ay natitibag din. Na lahat ng pinakaiingatan niya ay maaring mawala sa kanya. Dahil may mga pag ibig na kahit anong gawing iwas mo ay lagi kang tinatamaan. lyong pag ibig na umiilag ka na, bull's eye ka pa rin. lyong tipong sinarado mo na ang pinto mo, pilit paring kumakatok. But Klare's fierce, she wouldn't let that happen. No. She will risk her heart just to protect her comfort zone, her home, her everything.
+                Ngunit sa pagkawala ng pag ibig niya, doon lang din ba niya mapagtatanto kung ano ang nawala sa kanya? That she had lost everything when she let him go? Is she ready to fight for it now? Now that he's gone?</p>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fjonaxxstories.com%2Fmontefalco-series%2Funtil-he-was-gone-book-1-of-until-trilogy%2F&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA">https://l.messenger.com/l.php?u=https%3A%2F%2Fjonaxxstories.com%2Fmontefalco-series%2Funtil-he-was-gone-book-1-of-until-trilogy%2F&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA </a>                                                                           </a>
+        <h2>Until He Was Gone Book2</h2>
+        <p>Nang malaman ni Klare na hindi siya tunay na anak ng kanyang kinilalang ama, nag bago ang ikot ng kanyang mundo. She's torn between her love for her family and her desire to seek for the fragments of her real identity. Sa kalagitnaan ng lahat ng ito, pilit din siyang binabalikan ng mga alaala ng nakaraan. Her past is haunting her. But she knew it is impossible to turn back the time. Pinanindigan niya ang mga nagawang desisyon noon at tanggap niyang may mga tao na dumadadaan lang ngunit hindi nagtatagal.</p>
+        <h2>Until He Was Gone Book3</h2>
+        <p>Nang malaman ni Klare na hindi siya tunay na anak ng kanyang kinilalang ama, nag bago ang ikot ng kanyang mundo. She's torn between her love for her family and her desire to seek for the fragments of her real identity. Sa kalagitnaan ng lahat ng ito, pilit din siyang binabalikan ng mga alaala ng nakaraan. Her past is haunting her. But she knew it is impossible to turn back the time. Pinanindigan niya ang mga nagawang desisyon noon at tanggap niyang may mga tao na dumadadaan lang ngunit hindi nagtatagal.</p>
+        <h2>Waves of memories</h2>
+           <p>Without her memories, Thraia Gabriella Fortunato doesn't have a clue about her past. Kung paano siya dinala ng mga alon sa isang lugar na hindi pamilyar sa kanya ay lagpas sa kanyang pang- unawa. With only a stranger who says he is her husband, and friends who don't have any clue of her past, too, she started to doubt everything.</p>
+        <h2>After The Chains</h2>
+        <a href="https://www.wattpad.com/story/168669063-after-the-chains-costa-leona-series-13">https://www.wattpad.com/story/168669063-after-the-chains-costa-leona-series-13</a>
+        <h2>Scorching Love</h2>
+            <p>Nieves Solanna Galvez or Snow is the young, stern, and efficient heiress of the biggest hotel in Costa Leona. Natural na responsable at magaling magdesisyon dahil natutong maging independent sa murang edad.</p>
+        <h2>Hearthless</h2>
+            <p>Elevators. Airplanes. Palaman ng Sandwich. Yung feeling na papunta ka pa lang at excited ka pa lang sa pupuntahan mo. Yung feeling na palapit pa lang yung birthday mo. Yung feeling na palapit pa ang isa pang espesyal na araw. Yung feeling na ilang oras na lang ay pasko na. Yung feeling na tatlong araw na lang simula na ulit ng pasukan. Yung feeling na nasa gitna ka pa lang at di ka pa nakakarating. Yung feeling na malapit na pero hindi pa. Yun ang laging gusto ko. Yung nasa gitna pa lang. Yung nasa gitna ka ng dalawang bagay. Gitna ng isang building. Gitna ng langit at lupa. Gitna ng dalawang matatabang tinapay. Gitna ng byahe papuntang disneyland. Mas gusto ko yung feeling tuwing nagbabyahe kesa doon sa nakarating ka na. Mas gusto ko yung feeling na may inaantay ka kesa doon sa nandyan na.</p>
+        <h2>Worthless</h2>
+            <p>Maria Georgianne Marfori loved Noah Elizalde more than anything in this world. Ganon din halos lahat ng mga babaeng kilala niya. Yes, he's probably that hot and adorable. Kaya naman ay maaga niyang natutunan ang pag mamahal ng walang pag aalinlangan at takot. Kailanman ay hindi niya naisip na darating ang araw na susuko siya at mapapagod. Never. Noah will end up with her no matter what. But is it really right to love him intensely at a very young age? Her family didn't believe in love. They think it's pure sentiment. They think purely loving someone with your heart was wrong. Binigyan tayo ng Panginoon ng puso at utak. Puso, para maramdaman ang sentimento. Utak, para mapag isipan kung dapat bang tanggapin ang sentimento ng puso. We have to identify who's the better judge</p>
+        <h2>Mapapansin Kaya?</h2>
+            <p>Ilang beses ba nating tinanong ang sarili natin kung mapapansin ba tayo ng mga taong mahal natin? Ilang beses ka ba magtatanong sa buong buhay mo? At ano sa tingin mo ang magiging sagot?
+            "Mapapansin kaya ako? Ang pag-ibig ko? Ang katauhan ko? Mapapansin Kaya?"
+             Paano kung hindi? Paano kung oo? Magkaiba ba ang gagawin mong desisyon o pareho lang? Mag- iiba ba ang pananaw mo o magpapatuloy ka lang sa kung anong alam mong constant?
+             Umaatikabong fame laban sa umaatikabong pag- ibig.</p>
+        <h2>End This War</h2>
+            <p>Alam mong kalaban pero nagawa mo paring mahalin. Alam mong hindi pwede pero mas lalo ka paring nagpupumilit. Alam mong mali pero ginagawa mong tama. Totoong masarap ang mga bawal. Pero masarap parin ba pag magkasakitan na? Masarap parin ba pag pinaiyak ka na?
+                Hanggang kailan mo kayang ipaglaban ang pag ibig na hindi mo mabitiwan? Hanggang kailan mo kayang ipaglaban ang pag ibig na bawal?</p>
+        <h2>Sunburned Heart</h2>
+            <p>Amber Emilianna Sevilla is pressured from her mother's expectations of her. Having done something that displeased her, she was shipped off to live in her mother's hometown, Costa Leona.
+                There, she was told to stay away from Jaxon Riego, Costa Leona's sunburned beauty. Anak ito ng lalaking pinakamumuhian ng ina. Ngunit hindi siya lumayo at natuto pang umibig dito. She soon realized that her mother may be right but it was too late. She was already sorrowful and broken. Over lies, misunderstandings, a heartbreak, a tragedy, and a secret, Amber and her family left Costa Leona for New York to start a new life. Sa kanyang pagbabalik, handa na niyang ibunyag ang kanyang sikreto. Ngunit makakaya kaya ni Amber na harapin ang galit ni Jaxon?</p>
+        <h2>Blown By The Wind</h2>
+                <p>Barely escaping a tragedy, Eurydyce Amethyst Saniel, a young rising star, is found unconscious inside a small boat on the shores of Costa Leona. Mapaglaro ang hangin, kung kanino pa siya may atraso ilang taon na ang lumipas, doon pa siya dinala. Vincent Hidalgo's estate includes the shores where Eury is found. Ang unang-unang naisip ni Vincent na gawin dito ay maningil. She has to pay for all the damages she has caused Vincent for the past years - sa pangalan at sa puso. Now that the wind brought Eury back to him, hinding-hindi niya na ito pakakawalan. With Eury refusing to tell Vincent the reason why she was in that boat, with her oppressors dead, and a killer on the loose, how will Vincent protect Eury without knowing anything?
+                    Eury doesn't want Vincent in her life. Now, will he fight for his right when a haunting past is stopping him from forcing his way inside her life?</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="author" onclick="openModal('author2')">
+   <br> <img src="images/author2.jfif" alt="Maxinejiji"></br>
+</div>
+
+<div id="author2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('author2')">&times;</span>
+        <h2>Wattpad app link</h2>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dwp.wattpad&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA">https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dwp.wattpad&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA</a>
+        <h6>Maxinejiji Stories</h6>
+        <h2>He's into her </h2>
+            <p>Alam mong kalaban pero nagawa mo paring mahalin. Alam mong hindi pwede pero mas lalo ka paring nagpupumilit. Alam mong mali pero ginagawa mong tama. Totoong masarap ang mga bawal. Pero masarap parin ba pag magkasakitan na? Masarap parin ba pag pinaiyak ka na?
+              Hanggang kailan mo kayang ipaglaban ang pag ibig na hindi mo mabitiwan? Hanggang kailan mo kayang ipaglaban ang pag ibig na bawal?/p>
+        <h2>Moon</h2>
+            <p>Napagdesisyunan nina Maximor at Heurt na putulin na ang ipinagbabawal nilang relasyon. Nagkamali si Maximor nang isipin niyang hindi na muli magkrukrus ang kanilang landas. Isang araw ay tumawag si Heurt at sinabing nagbunga ang kanilang ugnayan. Mali man ay masaya si Maximor sa nalaman. Ngunit ang saya na iyon ay nabawasan nang malamang babae ang magiging anak nila.
+                Nabibilang sa pinakamakapangyarihan at maimpluwensyang sindikato ang ama ni Heurt. Komplikado naman ang bansang kinabibilangan ni Maximor kung saan kinakailangang maging rango ang nga kabataan sa Emperyo.
+                Labag man sa kalooban ay ipinaubaya ni Heurt ang pagpapalaki sa kanilang anak. Ayaw niyang lumaki ito sa imperyong kinalakihan Nina sa piling ng ama. Ngunit, hindi ibig sabihin niyon ay langit na ang Emperyo. Dahil isa rin iyong impyerno para sa mga batan dumaraan sa ensayo at proseso para lamang maging ranggo.</p>
+        <h2>Love Without Limits</h2>
+                <p>"I let you into my life, my mind, my heart, my bed, my house, my soul, my everything...because you're special to me. You are the only love of my life and no one is entitled to my everything, except you, Yaz"</p>
+    </div>
+</div>
+</div>
+
+<div class="author" onclick="openModal('author3')">
+    <br> <img src="images/author3.jpg" alt="OwwSIC"></br>
+ </div>
+<div id="author3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('author3')">&times;</span>
+        <h2>Wattpad app link</h2>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dwp.wattpad&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA">https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dwp.wattpad&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA</a>
+        <h6>OwwSIC Stories</h6>
+        <h2>The Day She Said Goodnight</h2>
+            <p>Marahil ay wala pang naiilathala na kwento ng dalawang tao ang maaring maging kapareho sa kwentong iba. Pero lahat ng kwento sa mundo ay dalawa lamang ang posibleng maging kahihinatnan. Magkakatuluyan ang dalawang nagmamahalan at magkasama silang haharapin ang buhay hanggang kamatayan. O kaya naman, maghihiwalay sila at ipagpatuloy ang mga buhay sa magkaibang landas.
+            Sa totoo lang, wala namang kakaiba sa kwento ng dalawang tao na bida sa kwento na'to. Cliche nga marahil ang istorya. Kung saan ang sikat pero tarantadong lalaki ay nakilala ang isang normal pero ilag na babae. Siya nga pala si Rome - ang lalaking bida.
+            Namumuhay silang dalawa sa magkaibang mundo. Hanggang sa ang mapaglarong tadhana ay ipinaglapit ang mga buhay nila. Ang mundo nilang tahimik ay biglang gumulo at nagtapos sa isang hindi malilimutan na pangyayari
+            "Goodnight, Rome" At iyang dalawang salita na iyan ang pinakamasakit na mga salitang maririnig niya</p>
+        <h2>The Ten Year Gap</h2>
+            <p>Minsan ko nang ibinigay ang tiwala at pagmamahal ko sa isang tao. Pero ano ang nangyari? Ginamit at sinaktan lang ako. Since the day, I vowed tonever trust again. I vowed to never let anyone have the chance to hurt me again. Until he came.Sa kabila ng lahat ng pagtataboy at pagpapahirap ko sa kanya, he stayed. Paunti-unti, tinunaw niya. ang yelong matagal nang bumalot sa aking puso. Just like how the sun brought warmth after the long winter. And just like that, I broke the promise that I made to myself. Minahal ko si Paolo at minahal niya rin ako sa kabila ng malaking agwat sa edad naming dalawa. Mali man sa paningin ng iba, handa kaming patunayan ang aming pagmamahalan. Magsasama kaming dalawa, tutuparin naming ang pangako sa isa't isa at bubuo ng masayang pamilya. Everything had already been planned out.Pero nakalimutan kong iba nga pala makipaglaro ang tadhana. Yung akala kong perpekto na ay mauuwi lamang sa isang trahedya. My name is Angeline Cruzette Sy. And this is story of how I met my first love thst ends unexpectedly.He was 25 years old and I was years old when I first met him. That was the exact time that I thought that age has nothing to do with love or has it?</p>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2F632567199-best-wattpad-stories-the-10-year-gap-published&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2F632567199-best-wattpad-stories-the-10-year-gap-published&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA</a>
+        <h2>Jenny and The Magic Arinola</h2>
+            <p>Nagmahal ka ba ng uber? Nagtiwala? Nililibre mo ba ang boyfriend mo sa carinderia na pag-aari ng tiyahin mong Dragona? Halos ibinigay na ang lahat pero niloko pa din at ipinagpalit sa mismong 2nd Anniversary niyo ng boyfriend mong mukhang kuko sa talampakan? Kung hindi. Lakompake. Pero kung oo ang sagot mo, edi alam mo at ramdam mo ang pakiramdam ngayon ni Jennifer Ariesa Dimakatarungan, Jenny for short? Madakdak, bungangera, palatanong, pilosopa (Kasi babae daw siya kaya pilosopa. Choosy!), mahadera, at no boobs since birth. 'Yan ang mga the best adjectives para ilarawan si Jenny. Isang ordinaryong babae na minahal si Rolando Berto Judas, ang Judas niyang ex na nanloko sa kanya. Kapal talaga ng pagmumukha ng walangya. Dahil sa kabutihan ng kanyang puso may nakita siyang luma at kaderder na arinola na mukhang pag-aari ng matandang nan-drink and run sa kanya. Dahil mahadera siya nilinis niya ito at may na- diskubreng magic sa luma at kaderder na arinola. No. Hindi treasure. Kundi may isang gwapo, matipuno, may v-line, at sexy na genie pala ang arinola. Samahan si Jenny sa pakikibaka (chos!) sa pag diskubre ng kanyang buhay kasama ang masungit, moody, manlalait, pero gwapo niyang Genie.</p>
+            <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2F957706076-highly-recommended-fantasy-stories-jenny-and-the&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2F957706076-highly-recommended-fantasy-stories-jenny-and-the&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA</a>
+    </div>
+</div>
+</div>
+
+
+<div class="author" onclick="openModal('author4')">
+    <br> <img src="images/author4.jpg" alt="4reuminct"></br>
+ </div>
+<div id="author4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('author4')">&times;</span>
+        <h2>Wattpad app link</h2>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dwp.wattpad&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA">https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dwp.wattpad&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA</a>
+        <h6>4reuminct Stories</h6>
+        <h2>The Rain of España</h2>
+           <p>In a family of doctors, Kalix decided to take a different path and found himself studying Legal Management in Ateneo De Manila University. With family pressure on him, he tried so hard to maintain his high grades as a Dean's Lister until Luna from UST Architecture came.</p>
+        <h2>Chasing in the Wild</h2>
+            <p>Sevi, the team captain of Growling Tigers, never expected to fall in love again after his first heartbreak with his bestfriend.. until he met Elyse, the spoiled cheerleader from La Salle.</p>
+        <h2>Golden Scenery of Tommorow</h2>            
+            <p>Ever since they were kids, Avianna Diaz from UST Architecture and Larkin Sanchez from UP Film were inseparable, not until Larkin's fame grew over time, and they suddenly found themselves taking different roads at the same time.</p>
+        <h2>Safe Skies Archer</h2>
+            <p>Hiro, a student pilot from DLSU, was very clear with his number one goal in life. It was to study in the best flying school in Florida. However, he agreed to have a no strings attached relationship with Yanna from FEU Tourism, the woman who cannot be tamed with her sexcapades</p>
+        <h2>Avenues Of The Diamonds</h2>
+            <p>Samantha Vera from Ateneo De Manila University, the epitome of kindness, empathy, grace, and solicitude got her life ruined when her parents told her that she was marrying Cy Ramirez, a med student from UP, after their graduation.</p>
+    </div>
+</div>
+</div>
+
+<div class="author" onclick="openModal('author5')">
+    <br> <img src="images/author5.jpg" alt="Jamille Fumah"></br>
+ </div>
+<div id="author5" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('author5')">&times;</span>
+        <h2>Wattpad app link</h2>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dwp.wattpad&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA">https://l.messenger.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dwp.wattpad&h=AT3CkDOmsn4ZtvIe4NNQyFrivM6SrjxqGoQObvVeoBAmVYgGxxU1a335MEutPNWfP-5twv4tLiNMM6S-cgnI8VV7hS4Unh5N5rOcCaKWm3DU1fKHlf6GVvy6Pslka-qWbEUoeEVu_Mx2iw5YnY8XLA</a>
+        <h6>Jammille Fumah Stories</h6>
+        <h2>Iloveyou Ara</h2>
+            <p>The story is about a girl named Ara who goes missing under unknown circumstances, leading her family and friends to try to find out what happened to her and why she begins haunting them, revealing a forbidden.</p>
+        <h2>Trapped With Him</h2>
+            <p>Jesusa, a homeless girl in Quiapo, Manila, luckily caught the eyes of Damon Montemayor, a young boy who happens to be from a prestigious family. Her life has changed from that moment on. She's indebted to him and greatly appreciates his clan's support and help. Her gratitude, though is not enough for him - as he wants her heart more than anything.</p>
+       <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F111087022-trapped-with-him&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F111087022-trapped-with-him&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA</a>
+            <h2>Baby Sitting The Billionaire</h2>
+            <p>A young gorgeous billionaire suffered from some sort of mental illness, and the only thing he knew was to eat her sandwich. She enjoyed feeding him, babysitting him- and taking advantage of him. Until they both end up playing with fire.</p>
+        <h2>Obey Him</h2>
+            <p>He's a 29-year-old mayor of the town and she's a 19-year-old orphaned student. Jackson became Frantiska's legal guardian before anything else. Their relationship does not conform to society's standards; it is unconventional if not scandalous, but to her, it is the only real thing in her life... not until she discovered that everything was just a lie.</p>
+        <h2>It Started In The Elevator</h2>
+            <p>All that Cynthia ever wanted was to find a rich man to be her husband, but she started falling for Leo who was a handsome, naughty, and sweet colleague, yet a poor man. Cynthia Fatima Dimagiba was a self-proclaimed gold-digger as she was already fed up being unwanted and poor after being orphaned at a young age. Forced to constantly hustle, she made a promise to herself that she will use her beauty and brains to marry a rich man. Specifically, the young and mysterious CEO of her company. Upon committing to her goal, she met Leo, a handsome and naughty but sweet colleague, yet a poor one. The last thing she could ever think of was falling in love with him and yet she did.</p>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F24100848%3Futm_source%3Dandroid%26utm_medium%3Dfacebook_messenger%26utm_content%3Dstory_info%26wp_page%3Dstory_details_button&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F24100848%3Futm_source%3Dandroid%26utm_medium%3Dfacebook_messenger%26utm_content%3Dstory_info%26wp_page%3Dstory_details_button&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA</a>
+        <h2>Love Me Harder</h2>
+            <p>Ruby Castillo, a rebellious college student, gets caught up in a mess that makes her cross paths with Kyo Montenegro, the mafia prince who fears ghosts and turns out to be nuts when in love. And it seems like Ruby's dream of living a chill life will be in danger as a result of that encounter.</p>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F36317488%3Futm_source%3Dandroid%26utm_medium%3Dfacebook_messenger%26utm_content%3Dstory_info%26wp_page%3Dstory_details_button%26wp_uname%3DLezlieLezlie1&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F36317488%3Futm_source%3Dandroid%26utm_medium%3Dfacebook_messenger%26utm_content%3Dstory_info%26wp_page%3Dstory_details_button%26wp_uname%3DLezlieLezlie1&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA</a>
+        <h2>His Bad Ways</h2>
+            <p>X, the green-eyed handsome boy who hangs around Quiapo, Manila, is the suitor of Rita. She believes her future is uncertain if she ends up with him as he is homeless and unemployed until she realizes she's wrong. X is a good and responsible guy who really loves her and is willing to do anything for her-yet, she breaks his heart, despite all.</p>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F180943274%3Futm_source%3Dandroid%26utm_medium%3Dfacebook_messenger%26utm_content%3Dstory_info%26wp_page%3Dstory_details_button%26wp_uname%3DLezlieLezlie1&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F180943274%3Futm_source%3Dandroid%26utm_medium%3Dfacebook_messenger%26utm_content%3Dstory_info%26wp_page%3Dstory_details_button%26wp_uname%3DLezlieLezlie1&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA</a>
+        <h2>Insanus</h2>
+            <p>"If you think you are safe... think again."
+                Mysterious things happened after Cristina had an accident. She often saw a scary woman who was defiled and had no face. At hindi lang siya ang nakakakita rito, at nakakaranas ng kakaibang pangyayari sa bahay nila. Lahat sila ay pini-peste ng babaeng ito na may nabubulok na mga kuko. Pilit nila itong binabalewala, pero hindi madaling balewalain ang katotohanan na mas malala pa sa bangungot. Sino ba talaga ito? Bakit ginugulo nito ang isip at puso niya? At kung isa itong multo, bakit may kakayahan itong manakit at magpaikot ng tao? It was too late for them to discover that that demon was bound to destroy and kill them all.</p>
+        <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F24880315%3Futm_source%3Dandroid%26utm_medium%3Dfacebook_messenger%26utm_content%3Dstory_info%26wp_page%3Dstory_details_button%26wp_uname%3DLezlieLezlie1&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F24880315%3Futm_source%3Dandroid%26utm_medium%3Dfacebook_messenger%26utm_content%3Dstory_info%26wp_page%3Dstory_details_button%26wp_uname%3DLezlieLezlie1&h=AT1Vc0A-YHE1UGKAclPhMEdNgiUBCFZUUH_-ezazicj1Xp3WwU5RRWJp12boIHBBB9d9JRI8QPH_qYJ5sGEZP7EpSQwsdqXqNg4h-TNdqlhS_01Z0LcrW1TSdxC6bPtUMZg3IA</a>
+       
+    </div>
+</div>
+</div>
+
+<script>
+
+    function openModal(authorId) {
+        document.getElementById(authorId).style.display = "block";
+    }
+
+    function closeModal(authorId) {
+        document.getElementById(authorId).style.display = "none";
+    }
+</script>
+
+</body>
+</html>
